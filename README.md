@@ -1,6 +1,20 @@
 # cpuhog
 Simple CPU hogging tool for testing purposes
 
+## Install package (using apt on debian)
+```
+$ sudo apt update;
+$ sudo apt install gcc make git
+```
+
+## Get source code using git
+```
+$ mkdir ~/git
+$ cd ~/git
+$ git clone https://github.com/krivenok/cpuhog.git
+$ cd cpuhog
+```
+
 ## How to build it?
 
 The build system for cpuhog is a trivial Makefile, so you can build it as follows:
